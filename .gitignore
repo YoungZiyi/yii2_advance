@@ -41,3 +41,9 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
+
+# ignore sqlite db file
+/backend/db/*
+
+# keep all .keep file
+!*.keep
